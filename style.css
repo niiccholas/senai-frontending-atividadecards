@@ -26,6 +26,8 @@ a {
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background-image: url(./img/Elementos_do_Outro_Lado.webp);
     background-size: cover;
     background-position: 35% 22%;    
@@ -84,4 +86,16 @@ li div{
 
 li img {
     height: 40vh;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    align-self: end;
+    color: white;
 }
